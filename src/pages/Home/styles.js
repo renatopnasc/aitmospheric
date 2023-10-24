@@ -52,6 +52,13 @@ export const Container = styled.div`
         background: white;
         color: black;
       }
+
+      &:disabled {
+        cursor: not-allowed;
+        background: white;
+        color: black;
+        opacity: 0.4;
+      }
     }
   }
 `;
