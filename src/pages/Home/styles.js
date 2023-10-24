@@ -7,6 +7,8 @@ export const Container = styled.div`
   display: grid;
   place-content: center;
 
+  background-color: red;
+
   opacity: 1;
 
   &.active {
