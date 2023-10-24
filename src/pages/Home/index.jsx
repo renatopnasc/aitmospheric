@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container } from "./styles";
 import { client } from "@gradio/client";
 
-import audioBg from "../../assets/som_ambiente.mp3";
+import audioBg from "../../assets/audios/som_ambiente.mp3";
 import audio from "../../assets/audios/titanium.wav";
 
 import videoBg from "../../assets/videos/video-output-79DC9029-C7F8-42AA-A578-B8F60F5EDD3D.mov";

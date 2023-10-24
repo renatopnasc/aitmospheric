@@ -37,7 +37,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     > h1 {
-      font-size: 6.4rem;
+      font-size: 8rem;
       letter-spacing: 1rem;
       font-weight: 400;
 
