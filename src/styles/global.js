@@ -15,7 +15,7 @@ export default createGlobalStyle`
 
   @font-face {
     font-family: aitmosphere;
-    src: url(src/assets/fonts/guildof.ttf);
+    src: url("../assets/fonts/guildof.ttf");
   }
 
   body, input, button, textarea {
