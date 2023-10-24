@@ -5,7 +5,7 @@ import { client } from "@gradio/client";
 import audioBg from "../../assets/som_ambiente.mp3";
 import audio from "../../assets/audios/titanium.wav";
 
-// import videoBg from "../../assets/videos/video-output-79DC9029-C7F8-42AA-A578-B8F60F5EDD3D.mov";
+import videoBg from "../../assets/videos/video-output-79DC9029-C7F8-42AA-A578-B8F60F5EDD3D.mov";
 
 export function Home() {
   const [load, setLoad] = useState(false);
@@ -50,9 +50,9 @@ export function Home() {
 
   return (
     <Container id="container" className={animation ? "active" : ""}>
-      {/* <video loop autoPlay muted>
+      <video loop autoPlay muted>
         <source src={videoBg} />
-      </video> */}
+      </video>
 
       <audio src={audioBg} autoPlay loop></audio>
 

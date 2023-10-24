@@ -9,12 +9,6 @@ export const Container = styled.div`
 
   opacity: 1;
 
-  background: linear-gradient(
-    0deg,
-    rgba(121, 34, 195, 1) 0%,
-    rgba(233, 105, 208, 1) 100%
-  );
-
   &.active {
     animation-name: lightAnimation;
     animation-duration: 5s;
