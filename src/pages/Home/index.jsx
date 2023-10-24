@@ -45,11 +45,11 @@ export function Home() {
 
   return (
     <Container id="container" className={animation ? "active" : ""}>
-      {/* <video loop autoPlay muted>
+      <video loop autoPlay muted>
         <source src="src/assets/videos/video-output-79DC9029-C7F8-42AA-A578-B8F60F5EDD3D.mov" />
-      </video> */}
+      </video>
 
-      {/* <audio src="src/assets/som_ambiente.mp3" autoPlay loop></audio> */}
+      <audio src="src/assets/som_ambiente.mp3" autoPlay loop></audio>
 
       <section>
         <h1>Aitmospheric</h1>
