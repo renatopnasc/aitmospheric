@@ -3,7 +3,10 @@ import { Container } from "./styles";
 export function Home() {
   return (
     <Container>
-      <h1>hello world</h1>
+      <section>
+        <h1>Aitmosphere</h1>
+        <button>Generate</button>
+      </section>
     </Container>
   );
 }
