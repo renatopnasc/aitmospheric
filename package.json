@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gradio/client": "^0.6.0",
     "axios": "^1.5.1",
     "js-file-download": "^0.4.12",
     "react": "^18.2.0",

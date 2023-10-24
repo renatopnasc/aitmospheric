@@ -13,18 +13,34 @@ export default createGlobalStyle`
     font-size: 62.5%;
   }
 
+  @font-face {
+    font-family: aitmosphere;
+    src: url(src/assets/fonts/guildof.ttf);
+  }
+
   body, input, button, textarea {
     font-size: 1.6rem;
-    font-family: 'Poppins', sans-serif;
   }
 
   body {
-    background: black;
+    background: white;
+    font-family: aitmosphere, sans-serif;
+
+  }
+
+  button {
+    font-family: 'Poppins', sans-serif;
   }
 
   @media (max-width: 900px) {
     :root {
       font-size: 46.875%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      font-size: 42%;
     }
   }
 `;

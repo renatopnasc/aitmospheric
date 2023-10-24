@@ -4,14 +4,25 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  background: linear-gradient(
-    0deg,
-    rgba(34, 39, 195, 1) 0%,
-    rgba(207, 45, 253, 1) 100%
-  );
-
   display: grid;
   place-content: center;
+
+  opacity: 1;
+
+  &.active {
+    animation-name: lightAnimation;
+    animation-duration: 5s;
+  }
+
+  > video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
 
   > section {
     max-width: 55rem;
@@ -26,8 +37,8 @@ export const Container = styled.div`
     justify-content: space-between;
 
     > h1 {
-      font-size: 6.4rem;
-      letter-spacing: 0.6rem;
+      font-size: 8rem;
+      letter-spacing: 1rem;
 
       font-weight: 400;
 
@@ -59,6 +70,20 @@ export const Container = styled.div`
         color: black;
         opacity: 0.4;
       }
+    }
+  }
+
+  @keyframes lightAnimation {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
     }
   }
 `;
