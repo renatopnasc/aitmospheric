@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import aitmosphericFont from "../assets/fonts/guildof.ttf";
 
 export default createGlobalStyle`
   *{
@@ -14,9 +15,10 @@ export default createGlobalStyle`
   }
 
   @font-face {
-    font-family: aitmosphere;
-    src: url("../assets/fonts/guildof.ttf");
+    font-family: "Aitmospheric";
+    src: url(${aitmosphericFont})
   }
+
 
   body, input, button, textarea {
     font-size: 1.6rem;
@@ -24,13 +26,14 @@ export default createGlobalStyle`
 
   body {
     background: white;
-    font-family: 'Poppins', sans-serif;
-
-
   }
 
   button {
     font-family: 'Poppins', sans-serif;
+  }
+
+  .title {
+    font-family: Aitmospheric;
   }
 
   @media (max-width: 900px) {

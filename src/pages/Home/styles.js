@@ -39,7 +39,6 @@ export const Container = styled.div`
     > h1 {
       font-size: 6.4rem;
       letter-spacing: 1rem;
-
       font-weight: 400;
 
       color: white;

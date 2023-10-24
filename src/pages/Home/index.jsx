@@ -57,7 +57,7 @@ export function Home() {
       <audio src={audioBg} autoPlay loop></audio>
 
       <section>
-        <h1>Aitmospheric</h1>
+        <h1 className="title">Aitmospheric</h1>
         <button disabled={load} onClick={handleGenerate}>
           {load ? "Generating..." : "Generate"}
         </button>
