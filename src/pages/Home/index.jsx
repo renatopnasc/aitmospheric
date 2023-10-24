@@ -50,9 +50,9 @@ export function Home() {
 
   return (
     <Container id="container" className={animation ? "active" : ""}>
-      <video loop autoPlay muted>
+      {/* <video loop autoPlay muted>
         <source src={videoBg} />
-      </video>
+      </video> */}
 
       <audio src={audioBg} autoPlay loop></audio>
 

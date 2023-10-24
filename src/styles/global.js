@@ -24,7 +24,8 @@ export default createGlobalStyle`
 
   body {
     background: white;
-    font-family: aitmosphere, sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 
   }
 

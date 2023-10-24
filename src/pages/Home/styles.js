@@ -9,6 +9,12 @@ export const Container = styled.div`
 
   opacity: 1;
 
+  background: linear-gradient(
+    0deg,
+    rgba(121, 34, 195, 1) 0%,
+    rgba(233, 105, 208, 1) 100%
+  );
+
   &.active {
     animation-name: lightAnimation;
     animation-duration: 5s;
@@ -37,7 +43,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     > h1 {
-      font-size: 8rem;
+      font-size: 6.4rem;
       letter-spacing: 1rem;
 
       font-weight: 400;
